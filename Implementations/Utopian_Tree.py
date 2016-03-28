@@ -1,0 +1,12 @@
+
+t = int(input().strip())
+for a0 in range(t):
+    n = int(input().strip())
+    height = 1
+    for num in range(n):
+        if num%2 == 0:
+            height *= 2
+        else:
+            height += 1
+    print (height)
+            
